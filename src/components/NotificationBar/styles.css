@@ -1,0 +1,23 @@
+.notification-bar {
+  background-color: rgb(107 158 210);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+
+.notification-bar p {
+  font-size: 14px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 320px) {
+  .notification-bar p {
+    text-align: center;
+  }
+}
+
+.notification-bar {
+  height: 40px;
+}

@@ -1,0 +1,121 @@
+main {
+  background-image: url("../../assets/banner.jpeg");
+  max-width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 8px;
+  padding: 1%;
+}
+
+.main-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-p {
+  margin: auto;
+  color: #6443ef;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.section-dest {
+  margin-bottom: 24px;
+}
+
+.destacados {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.destacados-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9cd8da;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  margin: 20px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.destacados-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff4ff;
+  padding: 8px;
+  border-color: 1px black;
+  border-bottom: 3px solid #e1ebff;
+  border-left: 3px solid #e1ebff;
+  border-radius: 5px;
+}
+
+.img-destacados {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.data {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2%;
+  column-gap: 16px;
+}
+
+.data-item {
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 4px 6px rgb(0 49 224 / 10%);
+}
+
+.data-item p {
+  font-size: 18px;
+  font-family: revert;
+  text-align: center;
+}
+
+.item-p {
+  font-size: 22px;
+  color: #6443ef;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+
+@media (max-width: 320px) {
+  .data {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+
+  .destacados-p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 568px) {
+  .destacados {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    align-items: center;
+  }
+
+  .destacados-item {
+    width: fit-content;
+  }
+}

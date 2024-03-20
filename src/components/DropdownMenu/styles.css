@@ -1,0 +1,37 @@
+.dropdown-menu {
+  position: relative;
+  text-align: center;
+}
+
+.toggle-button {
+  background-color: #ffffff;
+  color: #6b9ed2;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #cbe1f8;
+  position: absolute;
+  top: 63px;
+  left: -119px;
+  transform: translateX(-50%);
+  width: 310px;
+}
+
+.menu-list li {
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+
+.menu-list li:last-child {
+  border-bottom: none;
+}
+
+.menu-list.show {
+  display: block;
+}
